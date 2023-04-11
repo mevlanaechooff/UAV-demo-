@@ -1,13 +1,18 @@
 """
-utf = 'eng'
-UAV demo program in demo process, intended to be practical about object-oriented programming
-Mustafa Kemal University Management Information Systems Seyhmus Gurkan
-
-utf = 'tr'
-Obje odaklı programlama ile ilgili pratik olması amaçlanan henüz demo sürecindeki iha demo programı 
-Mustafa Kemal Üniversitesi Yönetim Bilişim Sistemleri Şeyhmus Gürkan
-
+for i in range (1, 11): 
+  for j in range (11-i):
+    print (" ", end = " ")
+  for j in range (1, i):
+    print ("*", end = " ")
+    
+  for i in range (i, 0, -1):
+    print ("*", end = " ")
+  
+  print ()  
 """
+
+
+
 import time
 
 class İHA():
